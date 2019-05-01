@@ -3,7 +3,7 @@ title: My Other Projects
 menuTitle: My Projects
 ---
 
-[This **Blog**](https://github.com/) is not my only [Web Design](https://www.gatsbyjs.org/) project.
+[This **Blog**](https://github.com/aaroncuddeback) is not my only [Web Design](https://www.gatsbyjs.org/) project.
 
 ### Cannacura
 
