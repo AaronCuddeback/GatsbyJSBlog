@@ -1,9 +1,9 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "Midlife Coder - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "Midlife Coder GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "Midlife Coder is a GatsbyJS starter.",
+  siteTitle: "Midlife Coder - Never too late to start coding", // <title>
+  shortSiteTitle: "Midlife Coder Blog", // <title> ending for posts and pages
+  siteDescription: "Midlife Coder Blog.",
   siteUrl: "https://blog.aaroncuddeback.com",
   pathPrefix: "",
   siteImage: "avatar.jpg",
@@ -15,7 +15,7 @@ module.exports = {
   infoTitle: "Aaron Cuddeback",
   infoTitleNote: "Midlife Coder",
   // manifest.json
-  manifestName: "Midlife Coder - a blog starter for GatsbyJS",
+  manifestName: "Midlife Coder - never too late to start coding",
   manifestShortName: "Midlife Coder", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
