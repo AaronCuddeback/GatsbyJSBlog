@@ -37,9 +37,9 @@ const theme = createMuiTheme({
       headerHeight: 170
     },
     fonts: {
-      boxTitleSize: 1.3,
-      boxTitleSizeM: 1.5,
-      boxTitleSizeL: 1.7
+      boxTitleSize: 1.0,
+      boxTitleSizeM: 1.2,
+      boxTitleSizeL: 1.4
     }
   },
   navigator: {
