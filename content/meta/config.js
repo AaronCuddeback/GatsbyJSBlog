@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Midlife Coder - a blog starter for GatsbyJS", // <title>
   shortSiteTitle: "Midlife Coder GatsbyJS Starter", // <title> ending for posts and pages
   siteDescription: "Midlife Coder is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteUrl: "https://blog.aaroncuddeback.com",
   pathPrefix: "",
   siteImage: "avatar.jpg",
   siteLanguage: "en",
@@ -22,7 +22,7 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "aaron@midlifecoder.dev",
+  contactEmail: "aaron.cuddeback@outlook.com",
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/aaroncuddeback" },

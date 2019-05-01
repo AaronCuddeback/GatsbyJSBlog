@@ -1,37 +1,7 @@
 ---
-title: About
+title: About Me
 ---
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+This site is open source and can be viewed at my [Github](https://github.com/aaroncuddeback/gatsby-starter-personal-blog). it is based off a [GatsbyJS](https://gatsbyjs.com)
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
-
-### Standard features:
-
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifest.json, offline support, favicons)
-* Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
-
-### Advanced features:
-
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+I’m Aaron Cuddeback, a Developer who is learning software development. I am striving to become a Full Stack Programmer. I am always willing to talk about programming and projects that I may be helpful with. Please don't hesitate to get in [touch](/contact/) if you want. You can also check out my online resume [here](https://aaroncuddeback.com/csv)
