@@ -55,7 +55,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+# .env
 
 .cache/
 .DS_Store
@@ -65,6 +65,3 @@ yarn-error.log
 # editors
 .idea/
 .vscode
-
-# Environment File
-.env
