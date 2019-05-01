@@ -72,7 +72,7 @@ const InfoMenu = props => {
         className={classes.link}
         data-shape="closed"
       >
-        Home
+        aaroncuddeback.com
       </Link>
     </nav>
   );
