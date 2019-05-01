@@ -10,11 +10,11 @@ menuTitle: My Projects
 An Ecommerce website dedicated to CBD products, it is a custom Wordpress design.
 [View Site](https://cannacura.net/)
 
-![Cannacura](./cannacura.net.gif)
+![Cannacura](./cannacura.net.jpg)
 
 ### The Flavolution
 
 A wonderful health company who sells healthy spices for the fitness community.
 [View Site](https://theflavolution.com)
 
-![The Flavolution](./flavolution.gif)
+![The Flavolution](./flavolution.jpg)
