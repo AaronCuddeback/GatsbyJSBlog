@@ -1,16 +1,18 @@
 backend:
   name: github
-  repo: aaroncuddeback/gatsby-netlify-cms-example #replace with your username/repo
+  repo: aaroncuddeback/GatsbyJSBlog #replace with your username/repo
 
 media_folder: static/assets
 
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/posts
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+# This line should *not* be indented
+# publish_mode: editorial_workflow

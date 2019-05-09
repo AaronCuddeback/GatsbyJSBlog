@@ -224,6 +224,15 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
-    }
+    },
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/posts`,
+        name: "markdown-pages"
+      }
+    },
+    `gatsby-transformer-remark`
   ]
 };
