@@ -5,14 +5,16 @@ backend:
 media_folder: static/assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: content/posts
+  - name: post
+    label: Post
+    slug: index
+    folder: content/posts/
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
+      - { name: subTitle, label: subTitle }
+      - { name: category, label: Category }
+      - { name: cover, label: Cover, widget: image }
       - { name: body, label: Body, widget: markdown }
 # This line should *not* be indented
 # publish_mode: editorial_workflow
