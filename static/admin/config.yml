@@ -2,19 +2,19 @@ backend:
   name: github
   repo: aaroncuddeback/GatsbyJSBlog #replace with your username/repo
 
-media_folder: static/assets
+media_folder: content/posts/assets
 
 collections:
   - name: post
     label: Post
-    slug: index
     folder: content/posts/
     create: true
+    slug: "{{year}}-{{month}}-{{day}}--{{slug}}"
     fields:
-      - { name: title, label: Title }
-      - { name: subTitle, label: subTitle }
+      - { name: title, label: Title, widget: string }
+      - { name: subTitle, label: subTitle, widget: string }
       - { name: category, label: Category }
-      - { name: cover, label: Cover, widget: image }
+      - { name: cover, label: Cover Image, widget: image }
       - { name: body, label: Body, widget: markdown }
 # This line should *not* be indented
 # publish_mode: editorial_workflow
