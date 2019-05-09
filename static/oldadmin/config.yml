@@ -2,7 +2,7 @@ backend:
   name: github
   repo: aaroncuddeback/GatsbyJSBlog #replace with your username/repo
 
-media_folder: content/posts
+media_folder: static/admin/assets
 
 collections:
   - name: post
