@@ -96,8 +96,13 @@ module.exports = {
               wrapperStyle: `margin-bottom: 2em`
             }
           },
+          {
+            resolve: "gatsby-remark-copy-linked-files",
+            options: {
+              destinationDir: "content/posts/assets"
+            }
+          },
           `gatsby-remark-prismjs`,
-          `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`
         ]
       }
@@ -224,6 +229,10 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-netlify-cms"
+    },
+    "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
 };
