@@ -2,7 +2,7 @@ backend:
   name: github
   repo: aaroncuddeback/GatsbyJSBlog # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: "static/" # Media files will be stored in the repo under static/images/uploads
+media_folder: "content/posts/assets" # Media files will be stored in the repo under static/images/uploads
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI

@@ -229,10 +229,10 @@ module.exports = {
       options: {
         include: /svg-icons/
       }
-    },
-    {
-      resolve: "gatsby-plugin-netlify-cms"
-    },
-    "gatsby-plugin-netlify" // make sure to keep it last in the array
+    }
+    // {
+    //   resolve: "gatsby-plugin-netlify-cms"
+    // },
+    // "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
 };
