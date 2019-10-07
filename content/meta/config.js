@@ -22,7 +22,7 @@ module.exports = {
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "aaron@midlifecoder.dev",
+  contactEmail: "aaron@urbanrisedesigns.com",
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/aaroncuddeback" },
